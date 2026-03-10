@@ -108,13 +108,13 @@
       "costUSD": 0.0,
       "models": {
         "google/gemini-2.5-flash-lite": 1,
-        "gemini-2.5-flash-lite": 2
+        "gemini-2.5-flash-lite": 4
       },
       "agents": {
         "gateway/ws": 1,
-        "main": 2
+        "main": 4
       },
-      "sessions": 2
+      "sessions": 4
     }
   ],
   "models": {
@@ -145,7 +145,7 @@
       "totalTokens": 13421
     }
   },
-  "lastUpdated": "2026-03-10T02:46:02Z",
+  "lastUpdated": "2026-03-10T02:46:40Z",
   "totals": {
     "inputTokens": 2678578,
     "outputTokens": 28371,
