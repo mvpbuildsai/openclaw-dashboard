@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenClaw — Usage Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0a0c0f; --surface:#111318; --border:#1e2229; --border2:#2a3040;
+  --text:#c8d0e0; --muted:#4a5568; --accent:#00e5a0; --accent2:#0096ff;
+  --warn:#f59e0b; --danger:#ef4444;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'IBM Plex Sans',sans-serif;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,229,160,.015) 2px,rgba(0,229,160,.015) 4px);pointer-events:none;z-index:100}
+header{border-bottom:1px solid var(--border);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:56px;position:sticky;top:0;background:rgba(10,12,15,.92);backdrop-filter:blur(12px);z-index:50}
+.logo{display:flex;align-items:center;gap:10px;font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:.9rem;letter-spacing:.05em;color:var(--accent)}
+.logo-icon{width:28px;height:28px;background:var(--accent);clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);display:flex;align-items:center;justify-content:center;font-size:14px}
+.header-meta{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--muted);display:flex;align-items:center;gap:1.5rem}
+.status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 6px var(--accent);animation:pulse 2s infinite;margin-right:6px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+main{max-width:1400px;margin:0 auto;padding:2rem}
+.page-title{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:1px solid var(--border)}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:2rem}
+.kpi{background:var(--surface);padding:1.5rem;position:relative;overflow:hidden}
+.kpi::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--accent);opacity:0;transition:opacity .3s}
+.kpi:hover::after{opacity:1}
+.kpi-label{font-family:'IBM Plex Mono',monospace;font-size:.65rem;color:var(--muted);letter-spacing:.12em;text-transform:uppercase;margin-bottom:.75rem}
+.kpi-value{font-family:'IBM Plex Mono',monospace;font-size:2rem;font-weight:600;color:var(--accent);line-height:1;margin-bottom:.4rem}
+.kpi-sub{font-size:.75rem;color:var(--muted)}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem}
+.grid-3{display:grid;grid-template-columns:2fr 1fr;gap:1.5rem;margin-bottom:1.5rem}
+@media(max-width:900px){.grid-2,.grid-3{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.card-header{padding:1rem 1.5rem;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}
+.card-header span{color:var(--accent2)}
+.card-body{padding:1.5rem}
+.bar-chart{display:flex;flex-direction:column;gap:12px}
+.bar-row{display:grid;grid-template-columns:140px 1fr 60px;align-items:center;gap:12px}
+.bar-label{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{height:6px;background:var(--border2);border-radius:3px;overflow:hidden}
+.bar-fill{height:100%;background:linear-gradient(90deg,var(--accent2),var(--accent));border-radius:3px;transition:width 1s cubic-bezier(.4,0,.2,1);width:0}
+.bar-val{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--muted);text-align:right}
+.sparkline-wrap{position:relative;height:120px;margin-top:.5rem}
+canvas.sparkline{width:100%;height:100%}
+.feed{display:flex;flex-direction:column;gap:0}
+.feed-item{display:flex;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:1px solid var(--border);animation:fadeIn .4s ease}
+.feed-item:last-child{border-bottom:none}
+@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.feed-dot{width:8px;height:8px;border-radius:50%;background:var(--accent);margin-top:5px;flex-shrink:0;box-shadow:0 0 6px var(--accent)}
+.feed-dot.warn{background:var(--warn);box-shadow:0 0 6px var(--warn)}
+.feed-dot.info{background:var(--accent2);box-shadow:0 0 6px var(--accent2)}
+.feed-content{flex:1;min-width:0}
+.feed-msg{font-size:.8rem;color:var(--text);margin-bottom:3px}
+.feed-time{font-family:'IBM Plex Mono',monospace;font-size:.65rem;color:var(--muted)}
+.empty{text-align:center;padding:3rem 1rem;font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);line-height:2}
+.empty-icon{font-size:2rem;margin-bottom:1rem}
+.gauge-wrap{display:flex;flex-direction:column;align-items:center;padding:1.5rem 0}
+.gauge-svg{width:160px;height:90px}
+.gauge-label{font-family:'IBM Plex Mono',monospace;font-size:1.4rem;font-weight:600;color:var(--accent);margin-top:.5rem}
+.gauge-sub{font-size:.7rem;color:var(--muted);margin-top:.25rem}
+.model-grid{display:flex;flex-direction:column;gap:10px}
+.model-row{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:var(--bg);border:1px solid var(--border);border-radius:6px;font-family:'IBM Plex Mono',monospace;font-size:.75rem}
+.model-name{color:var(--text)}
+.model-count{background:rgba(0,229,160,.1);color:var(--accent);padding:2px 8px;border-radius:4px;font-size:.7rem}
+footer{border-top:1px solid var(--border);padding:1rem 2rem;font-family:'IBM Plex Mono',monospace;font-size:.65rem;color:var(--muted);display:flex;justify-content:space-between;margin-top:2rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><div class="logo-icon">🦞</div>OPENCLAW / USAGE</div>
+  <div class="header-meta">
+    <span id="last-updated">Loading...</span>
+    <span><span class="status-dot"></span><span id="status-text">fetching data</span></span>
+  </div>
+</header>
+<main>
+  <div class="page-title">// token usage · model analytics · agent activity</div>
+  <div class="kpi-grid">
+    <div class="kpi"><div class="kpi-label">Total Interactions</div><div class="kpi-value" id="kpi-interactions">—</div><div class="kpi-sub">all time</div></div>
+    <div class="kpi"><div class="kpi-label">Active Models</div><div class="kpi-value" id="kpi-models">—</div><div class="kpi-sub">distinct models used</div></div>
+    <div class="kpi"><div class="kpi-label">Active Agents</div><div class="kpi-value" id="kpi-agents">—</div><div class="kpi-sub">configured agents</div></div>
+    <div class="kpi"><div class="kpi-label">Today's Sessions</div><div class="kpi-value" id="kpi-today">—</div><div class="kpi-sub">interactions today</div></div>
+    <div class="kpi"><div class="kpi-label">Context Usage</div><div class="kpi-value" style="font-size:1rem;padding-top:.5rem" id="kpi-snapshot">—</div><div class="kpi-sub">last snapshot %</div></div>
+  </div>
+  <div class="grid-3">
+    <div class="card">
+      <div class="card-header">Daily Interactions <span id="sparkline-range">30d</span></div>
+      <div class="card-body"><div class="sparkline-wrap"><canvas class="sparkline" id="sparkline"></canvas></div></div>
+    </div>
+    <div class="card">
+      <div class="card-header">Context Window</div>
+      <div class="card-body" style="padding:0">
+        <div class="gauge-wrap">
+          <svg class="gauge-svg" viewBox="0 0 160 90">
+            <path d="M 20 80 A 60 60 0 0 1 140 80" fill="none" stroke="#1e2229" stroke-width="12" stroke-linecap="round"/>
+            <path id="gauge-arc" d="M 20 80 A 60 60 0 0 1 140 80" fill="none" stroke="url(#gaugeGrad)" stroke-width="12" stroke-linecap="round" stroke-dasharray="188" stroke-dashoffset="188"/>
+            <defs><linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0096ff"/><stop offset="100%" stop-color="#00e5a0"/></linearGradient></defs>
+          </svg>
+          <div class="gauge-label" id="gauge-pct">—</div>
+          <div class="gauge-sub">of context window</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-header">Model Usage <span id="model-total"></span></div>
+      <div class="card-body"><div id="model-chart" class="bar-chart"><div class="empty"><div class="empty-icon">🔬</div>No model data yet.<br>Interact with your agent to populate.</div></div></div>
+    </div>
+    <div class="card">
+      <div class="card-header">Agent Activity <span id="agent-total"></span></div>
+      <div class="card-body"><div id="agent-chart" class="model-grid"><div class="empty"><div class="empty-icon">🤖</div>No agent data yet.</div></div></div>
+    </div>
+  </div>
+  <div class="card" style="margin-bottom:1.5rem">
+    <div class="card-header">Activity Feed <span id="feed-count"></span></div>
+    <div class="card-body" style="padding:0 1.5rem">
+      <div id="activity-feed" class="feed"><div class="empty"><div class="empty-icon">📡</div>Waiting for activity...<br>Run the collector script to populate.</div></div>
+    </div>
+  </div>
+</main>
+<footer>
+  <span>OPENCLAW DASHBOARD · mvpbuildsai</span>
+  <span id="footer-time">—</span>
+</footer>
+<script>
+const DATA_URL='./data/usage.json';
+const REFRESH_MS=60000;
+function fmtTime(iso){if(!iso)return'—';try{return new Date(iso).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})}catch{return iso}}
+function fmtRelative(iso){if(!iso)return'—';const diff=Date.now()-new Date(iso).getTime();const m=Math.floor(diff/60000);if(m<1)return'just now';if(m<60)return m+'m ago';const h=Math.floor(m/60);if(h<24)return h+'h ago';return Math.floor(h/24)+'d ago'}
+function el(id){return document.getElementById(id)}
+function renderKPIs(data){
+  const today=new Date().toISOString().slice(0,10);
+  const todayRec=data.daily?.find(d=>d.date===today);
+  const total=(data.daily||[]).reduce((s,d)=>s+(d.interactions||0),0);
+  el('kpi-interactions').textContent=total||'0';
+  el('kpi-models').textContent=Object.keys(data.models||{}).length||'0';
+  el('kpi-agents').textContent=Object.keys(data.agents||{}).length||'0';
+  el('kpi-today').textContent=todayRec?.interactions||'0';
+  const allSnaps=(data.daily||[]).flatMap(d=>d.tokenSnapshots||[]);
+  const last=allSnaps[allSnaps.length-1];
+  el('kpi-snapshot').textContent=last?last.pct+'%':'—';
+  const pct=last?.pct??0;
+  el('gauge-pct').textContent=pct?pct+'%':'—';
+  el('gauge-arc').style.strokeDashoffset=188*(1-pct/100);
+  if(pct>80)el('gauge-arc').style.stroke='#ef4444';
+  else if(pct>60)el('gauge-arc').style.stroke='#f59e0b';
+  el('last-updated').textContent=data.lastUpdated?'updated '+fmtRelative(data.lastUpdated):'no data yet';
+  el('status-text').textContent=data.lastUpdated?'live':'awaiting data';
+  el('footer-time').textContent='last fetch: '+new Date().toLocaleTimeString();
+}
+function renderSparkline(daily){
+  const canvas=el('sparkline');if(!canvas)return;
+  const ctx=canvas.getContext('2d');
+  canvas.width=canvas.offsetWidth*window.devicePixelRatio;
+  canvas.height=canvas.offsetHeight*window.devicePixelRatio;
+  ctx.scale(window.devicePixelRatio,window.devicePixelRatio);
+  const W=canvas.offsetWidth,H=canvas.offsetHeight;
+  const last30=daily.slice(-30);
+  const vals=last30.map(d=>d.interactions||0);
+  const max=Math.max(...vals,1);
+  const pad=8;
+  ctx.clearRect(0,0,W,H);
+  if(vals.length<2){ctx.fillStyle='#4a5568';ctx.font='11px IBM Plex Mono';ctx.fillText('No data yet — interact with your agent',20,H/2);return}
+  const step=(W-pad*2)/(vals.length-1);
+  const grad=ctx.createLinearGradient(0,0,0,H);
+  grad.addColorStop(0,'rgba(0,229,160,0.25)');grad.addColorStop(1,'rgba(0,229,160,0)');
+  ctx.beginPath();
+  vals.forEach((v,i)=>{const x=pad+i*step,y=pad+(1-v/max)*(H-pad*2);i===0?ctx.moveTo(x,y):ctx.lineTo(x,y)});
+  ctx.lineTo(pad+(vals.length-1)*step,H);ctx.lineTo(pad,H);ctx.closePath();
+  ctx.fillStyle=grad;ctx.fill();
+  ctx.beginPath();
+  vals.forEach((v,i)=>{const x=pad+i*step,y=pad+(1-v/max)*(H-pad*2);i===0?ctx.moveTo(x,y):ctx.lineTo(x,y)});
+  ctx.strokeStyle='#00e5a0';ctx.lineWidth=1.5;ctx.stroke();
+  [0,vals.length-1].forEach(i=>{const x=pad+i*step,y=pad+(1-vals[i]/max)*(H-pad*2);ctx.beginPath();ctx.arc(x,y,3,0,Math.PI*2);ctx.fillStyle='#00e5a0';ctx.fill()});
+  el('sparkline-range').textContent=last30.length+'d';
+}
+function renderBars(containerId,data){
+  const container=el(containerId);if(!container)return;
+  const entries=Object.entries(data||{}).sort((a,b)=>b[1]-a[1]);
+  if(!entries.length)return;
+  const max=entries[0][1];
+  container.innerHTML=entries.map(([k,v])=>`<div class="bar-row"><div class="bar-label" title="${k}">${k.split('/').pop()}</div><div class="bar-track"><div class="bar-fill" data-pct="${(v/max*100).toFixed(1)}"></div></div><div class="bar-val">${v}</div></div>`).join('');
+  requestAnimationFrame(()=>{container.querySelectorAll('.bar-fill').forEach(b=>{b.style.width=b.dataset.pct+'%'})});
+}
+function renderAgents(data){
+  const container=el('agent-chart');if(!container)return;
+  const entries=Object.entries(data.agents||{}).sort((a,b)=>b[1]-a[1]);
+  if(!entries.length)return;
+  container.innerHTML=entries.map(([k,v])=>`<div class="model-row"><span class="model-name">${k}</span><span class="model-count">${v} sessions</span></div>`).join('');
+}
+function renderFeed(data){
+  const container=el('activity-feed');if(!container)return;
+  const events=[];
+  (data.daily||[]).slice(-7).forEach(d=>{
+    if(d.interactions>0)events.push({type:'info',msg:d.interactions+' interaction(s) on '+d.date,ts:d.date+'T00:00:00Z'});
+    (d.tokenSnapshots||[]).forEach(s=>events.push({type:s.pct>70?'warn':'ok',msg:'Context at '+s.pct+'% of limit',ts:s.ts}));
+  });
+  if(!events.length)return;
+  events.sort((a,b)=>new Date(b.ts)-new Date(a.ts));
+  container.innerHTML=events.slice(0,12).map(e=>`<div class="feed-item"><div class="feed-dot ${e.type==='warn'?'warn':e.type==='info'?'info':''}"></div><div class="feed-content"><div class="feed-msg">${e.msg}</div><div class="feed-time">${fmtTime(e.ts)}</div></div></div>`).join('');
+  el('feed-count').textContent=events.length+' events';
+}
+async function loadData(){
+  try{
+    const res=await fetch(DATA_URL+'?t='+Date.now());
+    if(!res.ok)throw new Error('fetch failed');
+    const data=await res.json();
+    renderKPIs(data);renderSparkline(data.daily||[]);
+    renderBars('model-chart',data.models||{});
+    renderAgents(data);renderFeed(data);
+    el('model-total').textContent=Object.keys(data.models||{}).length+' models';
+    el('agent-total').textContent=Object.keys(data.agents||{}).length+' agents';
+  }catch(err){el('status-text').textContent='error loading data';console.error(err)}
+}
+loadData();
+setInterval(loadData,REFRESH_MS);
+window.addEventListener('resize',()=>{fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(d=>renderSparkline(d.daily||[])).catch(()=>{})});
+</script>
+</body>
+</html>
