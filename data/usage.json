@@ -1,15 +1,45 @@
 {
-  "sessions": [],
+  "sessions": [
+    {
+      "model": "google/gemini-2.5-flash-lite",
+      "agent": "gateway/ws",
+      "ts": "2026-03-10T01:18:57.662Z",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "contextWindow": 0,
+      "costUSD": 0.0
+    }
+  ],
   "daily": [
     {
       "date": "2026-03-10",
-      "interactions": 3,
-      "tokenSnapshots": []
+      "interactions": 1,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "costUSD": 0.0,
+      "models": {
+        "google/gemini-2.5-flash-lite": 1
+      },
+      "agents": {
+        "gateway/ws": 1
+      }
     }
   ],
   "models": {
-    "google/gemini-2.5-flash-lite": 3
+    "google/gemini-2.5-flash-lite": {
+      "sessions": 1,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "costUSD": 0.0
+    }
   },
-  "agents": {},
-  "lastUpdated": "2026-03-10T01:30:01Z"
+  "agents": {
+    "gateway/ws": {
+      "sessions": 1,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "costUSD": 0.0
+    }
+  },
+  "lastUpdated": "2026-03-10T02:30:02Z"
 }
