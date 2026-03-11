@@ -88,11 +88,11 @@
       "cacheWriteCostUSD": 0.21050250000000004,
       "models": {
         "gemini-2.5-flash-lite": {
-          "sessions": 37,
-          "inputTokens": 2287007,
-          "outputTokens": 7252,
-          "totalTokens": 2262883,
-          "estimatedCostUSD": 0.23160150000000002
+          "sessions": 38,
+          "inputTokens": 2348818,
+          "outputTokens": 7448,
+          "totalTokens": 2324042,
+          "estimatedCostUSD": 0.23786100000000002
         },
         "claude-sonnet-4-6": {
           "sessions": 8,
@@ -104,11 +104,11 @@
       },
       "agents": {
         "main": {
-          "sessions": 37,
-          "inputTokens": 2287007,
-          "outputTokens": 7252,
-          "totalTokens": 2262883,
-          "estimatedCostUSD": 0.23160150000000002
+          "sessions": 38,
+          "inputTokens": 2348818,
+          "outputTokens": 7448,
+          "totalTokens": 2324042,
+          "estimatedCostUSD": 0.23786100000000002
         },
         "complex": {
           "sessions": 8,
@@ -141,18 +141,18 @@
           "estimatedCostUSD": 0.0
         },
         "gemini-2.5-flash-lite": {
-          "sessions": 74,
-          "inputTokens": 15559851,
-          "outputTokens": 55174,
-          "totalTokens": 11330219,
-          "estimatedCostUSD": 1.578054700000001
+          "sessions": 76,
+          "inputTokens": 16084377,
+          "outputTokens": 57295,
+          "totalTokens": 11686334,
+          "estimatedCostUSD": 1.631355700000001
         },
         "claude-sonnet-4-6": {
-          "sessions": 29,
-          "inputTokens": 87,
-          "outputTokens": 17284,
-          "totalTokens": 1134439,
-          "estimatedCostUSD": 0.2595209999999999
+          "sessions": 30,
+          "inputTokens": 90,
+          "outputTokens": 17901,
+          "totalTokens": 1173547,
+          "estimatedCostUSD": 0.2687849999999999
         }
       },
       "agents": {
@@ -164,18 +164,18 @@
           "estimatedCostUSD": 0.0
         },
         "main": {
-          "sessions": 74,
-          "inputTokens": 15559851,
-          "outputTokens": 55174,
-          "totalTokens": 11330219,
-          "estimatedCostUSD": 1.578054700000001
+          "sessions": 76,
+          "inputTokens": 16084377,
+          "outputTokens": 57295,
+          "totalTokens": 11686334,
+          "estimatedCostUSD": 1.631355700000001
         },
         "complex": {
-          "sessions": 29,
-          "inputTokens": 87,
-          "outputTokens": 17284,
-          "totalTokens": 1134439,
-          "estimatedCostUSD": 0.2595209999999999
+          "sessions": 30,
+          "inputTokens": 90,
+          "outputTokens": 17901,
+          "totalTokens": 1173547,
+          "estimatedCostUSD": 0.2687849999999999
         }
       },
       "sessions": 3
@@ -213,7 +213,7 @@
       "estimatedCostUSD": 0.009264
     }
   },
-  "lastUpdated": "2026-03-11T04:00:05Z",
+  "lastUpdated": "2026-03-11T04:30:04Z",
   "totals": {
     "inputTokens": 9145410,
     "outputTokens": 41755,
@@ -1485,6 +1485,40 @@
         }
       },
       "activeSessions": 0
+    },
+    {
+      "timestamp": "2026-03-11T04:30:04Z",
+      "hour": "2026-03-11T04:00:00Z",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "models": {
+        "gemini-2.5-flash-lite": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        },
+        "complex": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        }
+      },
+      "activeSessions": 0
     }
   ],
   "hourly": [
@@ -2116,7 +2150,7 @@
         }
       },
       "activeSessions": 0,
-      "intervals": 1
+      "intervals": 2
     }
   ]
 }
