@@ -88,11 +88,11 @@
       "cacheWriteCostUSD": 0.21050250000000004,
       "models": {
         "gemini-2.5-flash-lite": {
-          "sessions": 53,
-          "inputTokens": 3275983,
-          "outputTokens": 10388,
-          "totalTokens": 3241427,
-          "estimatedCostUSD": 0.33175349999999965
+          "sessions": 54,
+          "inputTokens": 3337794,
+          "outputTokens": 10584,
+          "totalTokens": 3302586,
+          "estimatedCostUSD": 0.3380129999999996
         },
         "claude-sonnet-4-6": {
           "sessions": 8,
@@ -104,11 +104,11 @@
       },
       "agents": {
         "main": {
-          "sessions": 53,
-          "inputTokens": 3275983,
-          "outputTokens": 10388,
-          "totalTokens": 3241427,
-          "estimatedCostUSD": 0.33175349999999965
+          "sessions": 54,
+          "inputTokens": 3337794,
+          "outputTokens": 10584,
+          "totalTokens": 3302586,
+          "estimatedCostUSD": 0.3380129999999996
         },
         "complex": {
           "sessions": 8,
@@ -141,18 +141,18 @@
           "estimatedCostUSD": 0.0
         },
         "gemini-2.5-flash-lite": {
-          "sessions": 91,
-          "inputTokens": 16318767,
-          "outputTokens": 58795,
-          "totalTokens": 11920724,
-          "estimatedCostUSD": 1.655394700000001
+          "sessions": 92,
+          "inputTokens": 16334393,
+          "outputTokens": 58895,
+          "totalTokens": 11936350,
+          "estimatedCostUSD": 1.6569973000000011
         },
         "claude-sonnet-4-6": {
-          "sessions": 45,
-          "inputTokens": 135,
-          "outputTokens": 27156,
-          "totalTokens": 1760167,
-          "estimatedCostUSD": 0.4077449999999998
+          "sessions": 46,
+          "inputTokens": 138,
+          "outputTokens": 27773,
+          "totalTokens": 1799275,
+          "estimatedCostUSD": 0.4170089999999998
         }
       },
       "agents": {
@@ -164,18 +164,18 @@
           "estimatedCostUSD": 0.0
         },
         "main": {
-          "sessions": 91,
-          "inputTokens": 16318767,
-          "outputTokens": 58795,
-          "totalTokens": 11920724,
-          "estimatedCostUSD": 1.655394700000001
+          "sessions": 92,
+          "inputTokens": 16334393,
+          "outputTokens": 58895,
+          "totalTokens": 11936350,
+          "estimatedCostUSD": 1.6569973000000011
         },
         "complex": {
-          "sessions": 45,
-          "inputTokens": 135,
-          "outputTokens": 27156,
-          "totalTokens": 1760167,
-          "estimatedCostUSD": 0.4077449999999998
+          "sessions": 46,
+          "inputTokens": 138,
+          "outputTokens": 27773,
+          "totalTokens": 1799275,
+          "estimatedCostUSD": 0.4170089999999998
         }
       },
       "sessions": 2
@@ -213,7 +213,7 @@
       "estimatedCostUSD": 0.009264
     }
   },
-  "lastUpdated": "2026-03-11T12:00:05Z",
+  "lastUpdated": "2026-03-11T12:30:05Z",
   "totals": {
     "inputTokens": 9487843,
     "outputTokens": 42560,
@@ -2029,6 +2029,40 @@
         }
       },
       "activeSessions": 0
+    },
+    {
+      "timestamp": "2026-03-11T12:30:05Z",
+      "hour": "2026-03-11T12:00:00Z",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "models": {
+        "gemini-2.5-flash-lite": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        },
+        "complex": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        }
+      },
+      "activeSessions": 0
     }
   ],
   "hourly": [
@@ -2940,7 +2974,7 @@
         }
       },
       "activeSessions": 0,
-      "intervals": 1
+      "intervals": 2
     }
   ]
 }
