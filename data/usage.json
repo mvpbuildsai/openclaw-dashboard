@@ -88,11 +88,11 @@
       "cacheWriteCostUSD": 0.21050250000000004,
       "models": {
         "gemini-2.5-flash-lite": {
-          "sessions": 28,
-          "inputTokens": 1730708,
-          "outputTokens": 5488,
-          "totalTokens": 1712452,
-          "estimatedCostUSD": 0.175266
+          "sessions": 29,
+          "inputTokens": 1792519,
+          "outputTokens": 5684,
+          "totalTokens": 1773611,
+          "estimatedCostUSD": 0.1815255
         },
         "claude-sonnet-4-6": {
           "sessions": 8,
@@ -104,11 +104,11 @@
       },
       "agents": {
         "main": {
-          "sessions": 28,
-          "inputTokens": 1730708,
-          "outputTokens": 5488,
-          "totalTokens": 1712452,
-          "estimatedCostUSD": 0.175266
+          "sessions": 29,
+          "inputTokens": 1792519,
+          "outputTokens": 5684,
+          "totalTokens": 1773611,
+          "estimatedCostUSD": 0.1815255
         },
         "complex": {
           "sessions": 8,
@@ -141,18 +141,18 @@
           "estimatedCostUSD": 0.0
         },
         "gemini-2.5-flash-lite": {
-          "sessions": 56,
-          "inputTokens": 10839117,
-          "outputTokens": 36085,
-          "totalTokens": 8125184,
-          "estimatedCostUSD": 1.0983457000000005
+          "sessions": 58,
+          "inputTokens": 11363643,
+          "outputTokens": 38206,
+          "totalTokens": 8481299,
+          "estimatedCostUSD": 1.1516467000000006
         },
         "claude-sonnet-4-6": {
-          "sessions": 20,
-          "inputTokens": 60,
-          "outputTokens": 11731,
-          "totalTokens": 782467,
-          "estimatedCostUSD": 0.17614499999999994
+          "sessions": 21,
+          "inputTokens": 63,
+          "outputTokens": 12348,
+          "totalTokens": 821575,
+          "estimatedCostUSD": 0.18540899999999993
         }
       },
       "agents": {
@@ -164,18 +164,18 @@
           "estimatedCostUSD": 0.0
         },
         "main": {
-          "sessions": 56,
-          "inputTokens": 10839117,
-          "outputTokens": 36085,
-          "totalTokens": 8125184,
-          "estimatedCostUSD": 1.0983457000000005
+          "sessions": 58,
+          "inputTokens": 11363643,
+          "outputTokens": 38206,
+          "totalTokens": 8481299,
+          "estimatedCostUSD": 1.1516467000000006
         },
         "complex": {
-          "sessions": 20,
-          "inputTokens": 60,
-          "outputTokens": 11731,
-          "totalTokens": 782467,
-          "estimatedCostUSD": 0.17614499999999994
+          "sessions": 21,
+          "inputTokens": 63,
+          "outputTokens": 12348,
+          "totalTokens": 821575,
+          "estimatedCostUSD": 0.18540899999999993
         }
       },
       "sessions": 3
@@ -213,7 +213,7 @@
       "estimatedCostUSD": 0.009264
     }
   },
-  "lastUpdated": "2026-03-10T23:30:04Z",
+  "lastUpdated": "2026-03-11T00:00:03Z",
   "totals": {
     "inputTokens": 9145410,
     "outputTokens": 41755,
@@ -1179,6 +1179,40 @@
         }
       },
       "activeSessions": 0
+    },
+    {
+      "timestamp": "2026-03-11T00:00:03Z",
+      "hour": "2026-03-11T00:00:00Z",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "models": {
+        "gemini-2.5-flash-lite": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        },
+        "complex": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        }
+      },
+      "activeSessions": 0
     }
   ],
   "hourly": [
@@ -1636,6 +1670,41 @@
       },
       "activeSessions": 0,
       "intervals": 2
+    },
+    {
+      "hour": "2026-03-11T00:00:00Z",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimatedCostUSD": 0.0,
+      "models": {
+        "gemini-2.5-flash-lite": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        },
+        "complex": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        }
+      },
+      "activeSessions": 0,
+      "intervals": 1
     }
   ]
 }
