@@ -88,11 +88,11 @@
       "cacheWriteCostUSD": 0.21050250000000004,
       "models": {
         "gemini-2.5-flash-lite": {
-          "sessions": 35,
-          "inputTokens": 2163385,
-          "outputTokens": 6860,
-          "totalTokens": 2140565,
-          "estimatedCostUSD": 0.2190825
+          "sessions": 36,
+          "inputTokens": 2225196,
+          "outputTokens": 7056,
+          "totalTokens": 2201724,
+          "estimatedCostUSD": 0.22534200000000001
         },
         "claude-sonnet-4-6": {
           "sessions": 8,
@@ -104,11 +104,11 @@
       },
       "agents": {
         "main": {
-          "sessions": 35,
-          "inputTokens": 2163385,
-          "outputTokens": 6860,
-          "totalTokens": 2140565,
-          "estimatedCostUSD": 0.2190825
+          "sessions": 36,
+          "inputTokens": 2225196,
+          "outputTokens": 7056,
+          "totalTokens": 2201724,
+          "estimatedCostUSD": 0.22534200000000001
         },
         "complex": {
           "sessions": 8,
@@ -141,18 +141,18 @@
           "estimatedCostUSD": 0.0
         },
         "gemini-2.5-flash-lite": {
-          "sessions": 70,
-          "inputTokens": 14510799,
-          "outputTokens": 50932,
-          "totalTokens": 10617989,
-          "estimatedCostUSD": 1.4714527000000008
+          "sessions": 72,
+          "inputTokens": 15035325,
+          "outputTokens": 53053,
+          "totalTokens": 10974104,
+          "estimatedCostUSD": 1.5247537000000009
         },
         "claude-sonnet-4-6": {
-          "sessions": 27,
-          "inputTokens": 81,
-          "outputTokens": 16050,
-          "totalTokens": 1056223,
-          "estimatedCostUSD": 0.2409929999999999
+          "sessions": 28,
+          "inputTokens": 84,
+          "outputTokens": 16667,
+          "totalTokens": 1095331,
+          "estimatedCostUSD": 0.2502569999999999
         }
       },
       "agents": {
@@ -164,18 +164,18 @@
           "estimatedCostUSD": 0.0
         },
         "main": {
-          "sessions": 70,
-          "inputTokens": 14510799,
-          "outputTokens": 50932,
-          "totalTokens": 10617989,
-          "estimatedCostUSD": 1.4714527000000008
+          "sessions": 72,
+          "inputTokens": 15035325,
+          "outputTokens": 53053,
+          "totalTokens": 10974104,
+          "estimatedCostUSD": 1.5247537000000009
         },
         "complex": {
-          "sessions": 27,
-          "inputTokens": 81,
-          "outputTokens": 16050,
-          "totalTokens": 1056223,
-          "estimatedCostUSD": 0.2409929999999999
+          "sessions": 28,
+          "inputTokens": 84,
+          "outputTokens": 16667,
+          "totalTokens": 1095331,
+          "estimatedCostUSD": 0.2502569999999999
         }
       },
       "sessions": 3
@@ -213,7 +213,7 @@
       "estimatedCostUSD": 0.009264
     }
   },
-  "lastUpdated": "2026-03-11T03:00:04Z",
+  "lastUpdated": "2026-03-11T03:30:04Z",
   "totals": {
     "inputTokens": 9145410,
     "outputTokens": 41755,
@@ -1417,6 +1417,40 @@
         }
       },
       "activeSessions": 0
+    },
+    {
+      "timestamp": "2026-03-11T03:30:04Z",
+      "hour": "2026-03-11T03:00:00Z",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "models": {
+        "gemini-2.5-flash-lite": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0,
+          "estimatedCostUSD": 0.0
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        },
+        "complex": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "totalTokens": 0
+        }
+      },
+      "activeSessions": 0
     }
   ],
   "hourly": [
@@ -2013,7 +2047,7 @@
         }
       },
       "activeSessions": 0,
-      "intervals": 1
+      "intervals": 2
     }
   ]
 }
