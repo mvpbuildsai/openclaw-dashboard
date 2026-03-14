@@ -253,6 +253,23 @@
       "models": {},
       "agents": {},
       "channels": {}
+    },
+    {
+      "date": "2026-03-14",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 0,
+      "costUSD": 0.0,
+      "inputCostUSD": 0.0,
+      "outputCostUSD": 0.0,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
+      "sessions": 0,
+      "models": {},
+      "agents": {},
+      "channels": {}
     }
   ],
   "models": {
@@ -287,7 +304,7 @@
       "estimatedCostUSD": 0.17825992
     }
   },
-  "lastUpdated": "2026-03-13T23:30:03Z",
+  "lastUpdated": "2026-03-14T00:00:03Z",
   "totals": {
     "inputTokens": 9830276,
     "outputTokens": 43365,
@@ -299,7 +316,7 @@
     "outputCostUSD": 0.0386387,
     "cacheReadCostUSD": 0.1625118,
     "cacheWriteCostUSD": 0.2105025,
-    "days": 6
+    "days": 7
   },
   "intervals": [
     {
@@ -588,7 +605,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 11
+      "intervals": 12
     },
     {
       "hour": "2026-03-10T15:00:00Z",
@@ -612,7 +629,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 13
+      "intervals": 14
     },
     {
       "hour": "2026-03-10T16:00:00Z",
@@ -623,7 +640,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 45
+      "intervals": 49
     },
     {
       "hour": "2026-03-10T17:00:00Z",
@@ -634,7 +651,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 12
+      "intervals": 13
     },
     {
       "hour": "2026-03-11T04:00:00Z",
