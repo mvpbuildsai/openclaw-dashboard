@@ -285,6 +285,23 @@
       }
     },
     {
+      "date": "2026-03-12",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 0,
+      "costUSD": 0.0,
+      "inputCostUSD": 0.0,
+      "outputCostUSD": 0.0,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
+      "sessions": 0,
+      "models": {},
+      "agents": {},
+      "channels": {}
+    },
+    {
       "date": "2026-03-13",
       "inputTokens": 242651,
       "outputTokens": 1070,
@@ -345,6 +362,23 @@
           "estimatedCostUSD": 0.0057480000000000005
         }
       }
+    },
+    {
+      "date": "2026-03-14",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 0,
+      "costUSD": 0.0,
+      "inputCostUSD": 0.0,
+      "outputCostUSD": 0.0,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
+      "sessions": 0,
+      "models": {},
+      "agents": {},
+      "channels": {}
     },
     {
       "date": "2026-03-15",
@@ -409,7 +443,7 @@
     "outputCostUSD": 0.0445898,
     "cacheReadCostUSD": 0.1625118,
     "cacheWriteCostUSD": 0.2105025,
-    "days": 6
+    "days": 8
   },
   "intervals": [
     {
