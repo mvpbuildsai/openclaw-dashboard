@@ -278,7 +278,6 @@
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
       "totalTokens": 0,
-      "costUSD": 0.0,
       "inputCostUSD": 0.0,
       "outputCostUSD": 0.0,
       "cacheReadCostUSD": 0.0,
@@ -286,7 +285,9 @@
       "sessions": 0,
       "models": {},
       "agents": {},
-      "channels": {}
+      "channels": {},
+      "_contributions": {},
+      "costUSD": 0.0
     }
   ],
   "models": {
@@ -295,14 +296,14 @@
       "inputTokens": 11113748,
       "outputTokens": 38413,
       "totalTokens": 8960386,
-      "estimatedCostUSD": 1.19849835
+      "estimatedCostUSD": 0.98968271
     },
     "claude-sonnet-4-6": {
       "sessions": 1,
       "inputTokens": 95,
       "outputTokens": 14373,
       "totalTokens": 978588,
-      "estimatedCostUSD": 0.17825992
+      "estimatedCostUSD": 0.17106876
     }
   },
   "agents": {
@@ -311,17 +312,17 @@
       "inputTokens": 11113748,
       "outputTokens": 38413,
       "totalTokens": 8960386,
-      "estimatedCostUSD": 1.19849835
+      "estimatedCostUSD": 0.98968271
     },
     "complex": {
       "sessions": 1,
       "inputTokens": 95,
       "outputTokens": 14373,
       "totalTokens": 978588,
-      "estimatedCostUSD": 0.17825992
+      "estimatedCostUSD": 0.17106876
     }
   },
-  "lastUpdated": "2026-03-15T00:00:03Z",
+  "lastUpdated": "2026-03-15T00:24:06Z",
   "totals": {
     "inputTokens": 9830276,
     "outputTokens": 43365,
@@ -622,7 +623,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 60
+      "intervals": 61
     },
     {
       "hour": "2026-03-10T15:00:00Z",
@@ -646,29 +647,29 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 62
+      "intervals": 63
     },
     {
       "hour": "2026-03-10T16:00:00Z",
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
-      "estimatedCostUSD": 0.0,
+      "estimatedCostUSD": 0,
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 241
+      "intervals": 245
     },
     {
       "hour": "2026-03-10T17:00:00Z",
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
-      "estimatedCostUSD": 0.0,
+      "estimatedCostUSD": 0,
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 61
+      "intervals": 62
     },
     {
       "hour": "2026-03-11T04:00:00Z",
