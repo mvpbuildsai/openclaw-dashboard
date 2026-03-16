@@ -13,8 +13,12 @@
       "cacheWriteTokens": 0,
       "totalTokens": 13749,
       "estimatedCostUSD": 0.00215055,
+      "inputCostUSD": 0.00203295,
+      "outputCostUSD": 0.0001176,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-16T01:36:37Z",
-      "date": "2026-03-16"
+      "date": "2026-03-15"
     },
     {
       "id": "bf6431d9-c35e-4b97-8d24-09585693132b",
@@ -29,8 +33,12 @@
       "cacheWriteTokens": 0,
       "totalTokens": 21972,
       "estimatedCostUSD": 0.0034209,
+      "inputCostUSD": 0.0032541,
+      "outputCostUSD": 0.0001668,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-16T01:11:56Z",
-      "date": "2026-03-16"
+      "date": "2026-03-15"
     },
     {
       "id": "05b9a93e-f52b-4d60-a642-b34c30758b15",
@@ -45,8 +53,12 @@
       "cacheWriteTokens": 0,
       "totalTokens": 0,
       "estimatedCostUSD": 0.0,
+      "inputCostUSD": 0.0,
+      "outputCostUSD": 0.0,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-16T01:04:45Z",
-      "date": "2026-03-16"
+      "date": "2026-03-15"
     },
     {
       "id": "9437ad9f-b27d-43e3-b27c-9e995eea9ba3",
@@ -61,8 +73,12 @@
       "cacheWriteTokens": 0,
       "totalTokens": 12326,
       "estimatedCostUSD": 0.00200415,
+      "inputCostUSD": 0.00179715,
+      "outputCostUSD": 0.000207,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-16T00:25:33Z",
-      "date": "2026-03-16"
+      "date": "2026-03-15"
     },
     {
       "id": "f16bdf1d-b783-4408-b984-37e0f383bdc0",
@@ -77,6 +93,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 13991,
       "estimatedCostUSD": 0.00214725,
+      "inputCostUSD": 0.00208245,
+      "outputCostUSD": 6.48e-05,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-15T21:09:03Z",
       "date": "2026-03-15"
     },
@@ -93,6 +113,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 18551,
       "estimatedCostUSD": 0.00280335,
+      "inputCostUSD": 0.00277575,
+      "outputCostUSD": 2.76e-05,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-15T21:00:04Z",
       "date": "2026-03-15"
     },
@@ -109,6 +133,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 38012,
       "estimatedCostUSD": 0.00590655,
+      "inputCostUSD": 0.00563355,
+      "outputCostUSD": 0.000273,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-15T20:44:51Z",
       "date": "2026-03-15"
     },
@@ -125,6 +153,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 46724,
       "estimatedCostUSD": 0.0070698,
+      "inputCostUSD": 0.0069882,
+      "outputCostUSD": 8.16e-05,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-15T17:35:24Z",
       "date": "2026-03-15"
     },
@@ -141,6 +173,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 291727,
       "estimatedCostUSD": 0.0437874,
+      "inputCostUSD": 0.0437496,
+      "outputCostUSD": 3.78e-05,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-15T15:15:59Z",
       "date": "2026-03-15"
     },
@@ -157,6 +193,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 0,
       "estimatedCostUSD": 0.0,
+      "inputCostUSD": 0.0,
+      "outputCostUSD": 0.0,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-15T15:15:58Z",
       "date": "2026-03-15"
     },
@@ -173,8 +213,12 @@
       "cacheWriteTokens": 0,
       "totalTokens": 11726,
       "estimatedCostUSD": 0.00220035,
+      "inputCostUSD": 0.00161175,
+      "outputCostUSD": 0.0005886,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-15T03:34:54Z",
-      "date": "2026-03-15"
+      "date": "2026-03-14"
     },
     {
       "id": "0593a427-bf90-4360-b2f6-df5c8bcee766",
@@ -189,6 +233,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 21239,
       "estimatedCostUSD": 0.00177,
+      "inputCostUSD": 0.0015339,
+      "outputCostUSD": 0.0002361,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-13T21:41:53Z",
       "date": "2026-03-13"
     },
@@ -205,8 +253,12 @@
       "cacheWriteTokens": 0,
       "totalTokens": 343238,
       "estimatedCostUSD": 0.03456530000000001,
+      "inputCostUSD": 0.02568247,
+      "outputCostUSD": 0.0002415,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-11T04:48:22Z",
-      "date": "2026-03-11"
+      "date": "2026-03-10"
     },
     {
       "id": "a67c93973c03c6d9",
@@ -221,6 +273,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 620,
       "estimatedCostUSD": 0.009264,
+      "inputCostUSD": 9e-06,
+      "outputCostUSD": 0.009255,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-10T15:31:14Z",
       "date": "2026-03-10"
     },
@@ -237,8 +293,12 @@
       "cacheWriteTokens": 0,
       "totalTokens": 15726,
       "estimatedCostUSD": 0.0016026000000000002,
+      "inputCostUSD": 0.00117195,
+      "outputCostUSD": 3e-05,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-10T03:10:42Z",
-      "date": "2026-03-10"
+      "date": "2026-03-09"
     },
     {
       "id": "eeb456bf9d89dc48",
@@ -253,6 +313,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 62007,
       "estimatedCostUSD": 0.0062595,
+      "inputCostUSD": 0.00463582,
+      "outputCostUSD": 5.88e-05,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-09T23:59:43Z",
       "date": "2026-03-09"
     },
@@ -269,6 +333,10 @@
       "cacheWriteTokens": 0,
       "totalTokens": 62007,
       "estimatedCostUSD": 0.00469462,
+      "inputCostUSD": 0.00463582,
+      "outputCostUSD": 5.88e-05,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-09T23:59:43Z",
       "date": "2026-03-09"
     }
@@ -286,7 +354,15 @@
       "outputCostUSD": 0.003081,
       "cacheReadCostUSD": 0,
       "cacheWriteCostUSD": 0,
-      "models": {},
+      "models": {
+        "gemini-2.5-flash-lite": {
+          "sessions": 0,
+          "inputTokens": 63496,
+          "outputTokens": 1027,
+          "totalTokens": 64523,
+          "estimatedCostUSD": 0.034829
+        }
+      },
       "agents": {},
       "sessions": 0
     },
@@ -677,7 +753,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-16T15:45:04Z",
+  "lastUpdated": "2026-03-16T16:00:02Z",
   "totals": {
     "inputTokens": 10579274,
     "outputTokens": 48684,
@@ -978,7 +1054,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 122
+      "intervals": 123
     },
     {
       "hour": "2026-03-10T15:00:00Z",
@@ -1002,7 +1078,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 124
+      "intervals": 125
     },
     {
       "hour": "2026-03-10T16:00:00Z",
@@ -1013,7 +1089,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 489
+      "intervals": 493
     },
     {
       "hour": "2026-03-10T17:00:00Z",
@@ -1024,7 +1100,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 123
+      "intervals": 124
     },
     {
       "hour": "2026-03-11T04:00:00Z",
@@ -1317,5 +1393,6 @@
       "totalTokens": 93059,
       "estimatedCostUSD": 0.02036295
     }
-  }
+  },
+  "timezone": "America/Los_Angeles"
 }
