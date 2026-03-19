@@ -992,7 +992,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-19T15:00:02-0700",
+  "lastUpdated": "2026-03-19T15:15:03-0700",
   "totals": {
     "inputTokens": 11742571,
     "outputTokens": 67659,
@@ -1293,7 +1293,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 434
+      "intervals": 435
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -1317,7 +1317,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 436
+      "intervals": 437
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -1328,7 +1328,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 1737
+      "intervals": 1741
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -1339,7 +1339,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 435
+      "intervals": 436
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
