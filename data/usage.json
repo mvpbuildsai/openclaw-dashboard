@@ -1,6 +1,26 @@
 {
   "sessions": [
     {
+      "id": "1238aa2a-cde6-4e7a-ac3d-8a9f4798c635",
+      "agent": "main",
+      "channel": "main",
+      "model": "gemini-3.1-flash-lite-preview",
+      "modelProvider": "google",
+      "contextTokens": 1048576,
+      "inputTokens": 33054,
+      "outputTokens": 688,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 33742,
+      "estimatedCostUSD": 0.036494,
+      "inputCostUSD": 0.033054,
+      "outputCostUSD": 0.00344,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
+      "updatedAt": "2026-03-19T17:33:53-07:00",
+      "date": "2026-03-19"
+    },
+    {
       "id": "47f1ccf4-70a3-41a0-be2a-5a08394f34f3",
       "agent": "main",
       "channel": "telegram",
@@ -18,26 +38,6 @@
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-03-19T17:07:42-07:00",
-      "date": "2026-03-19"
-    },
-    {
-      "id": "1238aa2a-cde6-4e7a-ac3d-8a9f4798c635",
-      "agent": "main",
-      "channel": "main",
-      "model": "gemini-3.1-flash-lite-preview",
-      "modelProvider": "google",
-      "contextTokens": 1048576,
-      "inputTokens": 59770,
-      "outputTokens": 1573,
-      "cacheReadTokens": 0,
-      "cacheWriteTokens": 0,
-      "totalTokens": 61343,
-      "estimatedCostUSD": 0.067635,
-      "inputCostUSD": 0.05977,
-      "outputCostUSD": 0.007865,
-      "cacheReadCostUSD": 0.0,
-      "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-03-19T16:39:20-07:00",
       "date": "2026-03-19"
     },
     {
@@ -992,7 +992,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-19T17:30:03-0700",
+  "lastUpdated": "2026-03-19T17:45:02-0700",
   "totals": {
     "inputTokens": 11839059,
     "outputTokens": 68598,
@@ -1293,7 +1293,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 444
+      "intervals": 445
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -1317,7 +1317,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 446
+      "intervals": 447
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -1328,7 +1328,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 1777
+      "intervals": 1781
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -1339,7 +1339,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 445
+      "intervals": 446
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
