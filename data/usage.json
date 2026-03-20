@@ -7,17 +7,17 @@
       "model": "gemini-3.1-flash-lite-preview",
       "modelProvider": "google",
       "contextTokens": 1048576,
-      "inputTokens": 43006,
-      "outputTokens": 518,
+      "inputTokens": 35691,
+      "outputTokens": 926,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 43524,
-      "estimatedCostUSD": 0.045596,
-      "inputCostUSD": 0.043006,
-      "outputCostUSD": 0.00259,
+      "totalTokens": 36617,
+      "estimatedCostUSD": 0.040321,
+      "inputCostUSD": 0.035691,
+      "outputCostUSD": 0.00463,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-03-19T19:07:07-07:00",
+      "updatedAt": "2026-03-19T19:38:24-07:00",
       "date": "2026-03-19"
     },
     {
@@ -992,7 +992,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-19T19:30:04-0700",
+  "lastUpdated": "2026-03-19T19:45:04-0700",
   "totals": {
     "inputTokens": 11843584,
     "outputTokens": 68598,
@@ -1293,7 +1293,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 452
+      "intervals": 453
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -1317,7 +1317,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 454
+      "intervals": 455
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -1328,7 +1328,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 1809
+      "intervals": 1813
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -1339,7 +1339,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 453
+      "intervals": 454
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
@@ -2159,13 +2159,13 @@
     {
       "hour": "2026-03-19T19:00:00-07:00",
       "inputTokens": 43006,
-      "outputTokens": 518,
+      "outputTokens": 926,
       "totalTokens": 43524,
       "estimatedCostUSD": 0.045596,
       "models": {
         "gemini-3.1-flash-lite-preview": {
           "inputTokens": 43006,
-          "outputTokens": 518,
+          "outputTokens": 926,
           "totalTokens": 43524,
           "estimatedCostUSD": 0.045596
         }
@@ -2173,7 +2173,7 @@
       "agents": {
         "main": {
           "inputTokens": 43006,
-          "outputTokens": 518,
+          "outputTokens": 926,
           "totalTokens": 43524
         }
       },
