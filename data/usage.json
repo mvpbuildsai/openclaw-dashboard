@@ -7,17 +7,17 @@
       "model": "gemini-3.1-flash-lite-preview",
       "modelProvider": "google",
       "contextTokens": 1048576,
-      "inputTokens": 37438,
-      "outputTokens": 1224,
+      "inputTokens": 38320,
+      "outputTokens": 227,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 38662,
-      "estimatedCostUSD": 0.043558,
-      "inputCostUSD": 0.037438,
-      "outputCostUSD": 0.00612,
+      "totalTokens": 38547,
+      "estimatedCostUSD": 0.039455,
+      "inputCostUSD": 0.03832,
+      "outputCostUSD": 0.001135,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-03-21T21:14:36-07:00",
+      "updatedAt": "2026-03-21T21:30:30-07:00",
       "date": "2026-03-21"
     },
     {
@@ -1148,7 +1148,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-21T21:30:01-0700",
+  "lastUpdated": "2026-03-21T21:45:01-0700",
   "totals": {
     "inputTokens": 12246941,
     "outputTokens": 76160,
@@ -1449,7 +1449,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 652
+      "intervals": 653
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -1473,7 +1473,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 654
+      "intervals": 655
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -1484,7 +1484,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 2609
+      "intervals": 2613
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -1495,7 +1495,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 653
+      "intervals": 654
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
@@ -3010,13 +3010,13 @@
     },
     {
       "hour": "2026-03-21T21:00:00-07:00",
-      "inputTokens": 37438,
+      "inputTokens": 38320,
       "outputTokens": 1224,
       "totalTokens": 38662,
       "estimatedCostUSD": 0.043558,
       "models": {
         "gemini-3.1-flash-lite-preview": {
-          "inputTokens": 37438,
+          "inputTokens": 38320,
           "outputTokens": 1224,
           "totalTokens": 38662,
           "estimatedCostUSD": 0.043558
@@ -3024,7 +3024,7 @@
       },
       "agents": {
         "main": {
-          "inputTokens": 37438,
+          "inputTokens": 38320,
           "outputTokens": 1224,
           "totalTokens": 38662
         }
