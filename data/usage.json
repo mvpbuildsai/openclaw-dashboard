@@ -7,17 +7,17 @@
       "model": "gemini-3.1-flash-lite-preview",
       "modelProvider": "google",
       "contextTokens": 1048576,
-      "inputTokens": 68209,
-      "outputTokens": 107,
+      "inputTokens": 35940,
+      "outputTokens": 816,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 68316,
-      "estimatedCostUSD": 0.068744,
-      "inputCostUSD": 0.068209,
-      "outputCostUSD": 0.000535,
+      "totalTokens": 36756,
+      "estimatedCostUSD": 0.04002,
+      "inputCostUSD": 0.03594,
+      "outputCostUSD": 0.00408,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-03-23T13:00:07-07:00",
+      "updatedAt": "2026-03-23T13:17:50-07:00",
       "date": "2026-03-23"
     },
     {
@@ -1364,7 +1364,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-23T13:15:03-0700",
+  "lastUpdated": "2026-03-23T13:30:03-0700",
   "totals": {
     "inputTokens": 12682096,
     "outputTokens": 84837,
@@ -1665,7 +1665,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 811
+      "intervals": 812
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -1689,7 +1689,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 813
+      "intervals": 814
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -1700,7 +1700,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 3245
+      "intervals": 3249
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -1711,7 +1711,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 812
+      "intervals": 813
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
@@ -3785,13 +3785,13 @@
     {
       "hour": "2026-03-23T13:00:00-07:00",
       "inputTokens": 68209,
-      "outputTokens": 595,
+      "outputTokens": 816,
       "totalTokens": 68316,
       "estimatedCostUSD": 0.069859,
       "models": {
         "gemini-3.1-flash-lite-preview": {
           "inputTokens": 68209,
-          "outputTokens": 595,
+          "outputTokens": 816,
           "totalTokens": 68316,
           "estimatedCostUSD": 0.069859
         }
@@ -3799,7 +3799,7 @@
       "agents": {
         "main": {
           "inputTokens": 68209,
-          "outputTokens": 595,
+          "outputTokens": 816,
           "totalTokens": 68316
         }
       },
