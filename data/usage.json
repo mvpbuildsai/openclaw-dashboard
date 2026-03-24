@@ -8,16 +8,16 @@
       "modelProvider": "anthropic",
       "contextTokens": 1000000,
       "inputTokens": 4,
-      "outputTokens": 503,
+      "outputTokens": 137,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 507,
-      "estimatedCostUSD": 0.007557,
+      "totalTokens": 141,
+      "estimatedCostUSD": 0.002067,
       "inputCostUSD": 1.2e-05,
-      "outputCostUSD": 0.007545,
+      "outputCostUSD": 0.002055,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-03-24T08:30:01-07:00",
+      "updatedAt": "2026-03-24T08:31:45-07:00",
       "date": "2026-03-24"
     },
     {
@@ -1472,7 +1472,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-24T08:30:04-0700",
+  "lastUpdated": "2026-03-24T08:45:03-0700",
   "totals": {
     "inputTokens": 23968192,
     "outputTokens": 118438,
@@ -1773,7 +1773,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 888
+      "intervals": 889
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -1797,7 +1797,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 890
+      "intervals": 891
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -1808,7 +1808,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 3553
+      "intervals": 3557
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -1819,7 +1819,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 889
+      "intervals": 890
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
