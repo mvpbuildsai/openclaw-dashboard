@@ -7,17 +7,17 @@
       "model": "gemini-3.1-flash-lite-preview",
       "modelProvider": "google",
       "contextTokens": 1048576,
-      "inputTokens": 21894,
-      "outputTokens": 264,
+      "inputTokens": 33419,
+      "outputTokens": 917,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 22158,
-      "estimatedCostUSD": 0.023214,
-      "inputCostUSD": 0.021894,
-      "outputCostUSD": 0.00132,
+      "totalTokens": 34336,
+      "estimatedCostUSD": 0.038004,
+      "inputCostUSD": 0.033419,
+      "outputCostUSD": 0.004585,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-03-23T21:14:56-07:00",
+      "updatedAt": "2026-03-23T21:22:39-07:00",
       "date": "2026-03-23"
     },
     {
@@ -1261,32 +1261,32 @@
     },
     {
       "date": "2026-03-23",
-      "inputTokens": 11427617,
-      "outputTokens": 32886,
+      "inputTokens": 11439142,
+      "outputTokens": 33539,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 11460503,
-      "inputCostUSD": 11.427617,
-      "outputCostUSD": 0.16443,
+      "totalTokens": 11472681,
+      "inputCostUSD": 11.439142,
+      "outputCostUSD": 0.167695,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
       "sessions": 3,
       "models": {
         "gemini-3.1-flash-lite-preview": {
           "sessions": 3,
-          "inputTokens": 11427617,
-          "outputTokens": 32886,
-          "totalTokens": 11460503,
-          "estimatedCostUSD": 11.592047
+          "inputTokens": 11439142,
+          "outputTokens": 33539,
+          "totalTokens": 11472681,
+          "estimatedCostUSD": 11.606837
         }
       },
       "agents": {
         "main": {
           "sessions": 3,
-          "inputTokens": 11427617,
-          "outputTokens": 32886,
-          "totalTokens": 11460503,
-          "estimatedCostUSD": 11.592047
+          "inputTokens": 11439142,
+          "outputTokens": 33539,
+          "totalTokens": 11472681,
+          "estimatedCostUSD": 11.606837
         }
       },
       "channels": {
@@ -1299,10 +1299,10 @@
         },
         "telegram": {
           "sessions": 2,
-          "inputTokens": 11349050,
-          "outputTokens": 31732,
-          "totalTokens": 11380782,
-          "estimatedCostUSD": 11.50771
+          "inputTokens": 11360575,
+          "outputTokens": 32385,
+          "totalTokens": 11392960,
+          "estimatedCostUSD": 11.5225
         }
       },
       "_contributions": {
@@ -1335,21 +1335,21 @@
           "_wc": 0.0
         },
         "586dcfaa-e551-4ced-88ac-e8a24e3e9541": {
-          "inputTokens": 21894,
-          "outputTokens": 264,
-          "totalTokens": 22158,
+          "inputTokens": 33419,
+          "outputTokens": 917,
+          "totalTokens": 34336,
           "cacheReadTokens": 0,
           "cacheWriteTokens": 0,
           "model": "gemini-3.1-flash-lite-preview",
           "agent": "main",
           "channel": "telegram",
-          "_ic": 0.021894,
-          "_oc": 0.00132,
+          "_ic": 0.033419,
+          "_oc": 0.004585,
           "_rc": 0.0,
           "_wc": 0.0
         }
       },
-      "costUSD": 11.592047
+      "costUSD": 11.606837
     }
   ],
   "models": {
@@ -1376,19 +1376,19 @@
     },
     "gemini-3.1-flash-lite-preview": {
       "sessions": 19,
-      "inputTokens": 12453032,
-      "outputTokens": 57560,
-      "totalTokens": 12506620,
-      "estimatedCostUSD": 12.740832
+      "inputTokens": 12464557,
+      "outputTokens": 58213,
+      "totalTokens": 12518798,
+      "estimatedCostUSD": 12.755622
     }
   },
   "agents": {
     "main": {
       "sessions": 37,
-      "inputTokens": 25193536,
-      "outputTokens": 109983,
-      "totalTokens": 23106406,
-      "estimatedCostUSD": 13.96452926
+      "inputTokens": 25205061,
+      "outputTokens": 110636,
+      "totalTokens": 23118584,
+      "estimatedCostUSD": 13.97931926
     },
     "complex": {
       "sessions": 3,
@@ -1398,16 +1398,16 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-23T21:15:05-0700",
+  "lastUpdated": "2026-03-23T21:30:04-0700",
   "totals": {
-    "inputTokens": 23956653,
-    "outputTokens": 115454,
+    "inputTokens": 23968178,
+    "outputTokens": 116107,
     "cacheReadTokens": 5689514,
     "cacheWriteTokens": 56134,
-    "totalTokens": 24196625,
-    "costUSD": 14.39925162,
-    "inputCostUSD": 13.68577212,
-    "outputCostUSD": 0.3404652,
+    "totalTokens": 24208803,
+    "costUSD": 14.41404162,
+    "inputCostUSD": 13.69729712,
+    "outputCostUSD": 0.3437302,
     "cacheReadCostUSD": 0.1625118,
     "cacheWriteCostUSD": 0.2105025,
     "days": 14
@@ -1699,7 +1699,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 843
+      "intervals": 844
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -1723,7 +1723,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 845
+      "intervals": 846
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -1734,7 +1734,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 3373
+      "intervals": 3377
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -1745,7 +1745,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 844
+      "intervals": 845
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
@@ -3914,23 +3914,23 @@
     },
     {
       "hour": "2026-03-23T21:00:00-07:00",
-      "inputTokens": 21894,
-      "outputTokens": 264,
-      "totalTokens": 22158,
-      "estimatedCostUSD": 0.023214,
+      "inputTokens": 33419,
+      "outputTokens": 917,
+      "totalTokens": 34336,
+      "estimatedCostUSD": 0.038004,
       "models": {
         "gemini-3.1-flash-lite-preview": {
-          "inputTokens": 21894,
-          "outputTokens": 264,
-          "totalTokens": 22158,
-          "estimatedCostUSD": 0.023214
+          "inputTokens": 33419,
+          "outputTokens": 917,
+          "totalTokens": 34336,
+          "estimatedCostUSD": 0.038004
         }
       },
       "agents": {
         "main": {
-          "inputTokens": 21894,
-          "outputTokens": 264,
-          "totalTokens": 22158
+          "inputTokens": 33419,
+          "outputTokens": 917,
+          "totalTokens": 34336
         }
       },
       "activeSessions": 0,
@@ -3940,10 +3940,10 @@
   "channels": {
     "telegram": {
       "sessions": 25,
-      "inputTokens": 13600140,
-      "outputTokens": 61133,
-      "totalTokens": 13656826,
-      "estimatedCostUSD": 12.4872194
+      "inputTokens": 13611665,
+      "outputTokens": 61786,
+      "totalTokens": 13669004,
+      "estimatedCostUSD": 12.5020094
     },
     "main": {
       "sessions": 11,
