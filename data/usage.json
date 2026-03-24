@@ -17,7 +17,7 @@
       "outputCostUSD": 0.001905,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-03-24T06:30:42-07:00",
+      "updatedAt": "2026-03-24T07:00:03-07:00",
       "date": "2026-03-24"
     },
     {
@@ -1472,7 +1472,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-24T06:45:05-0700",
+  "lastUpdated": "2026-03-24T07:00:04-0700",
   "totals": {
     "inputTokens": 23968190,
     "outputTokens": 117115,
@@ -1773,7 +1773,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 881
+      "intervals": 882
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -1797,7 +1797,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 883
+      "intervals": 884
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -1808,7 +1808,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 3525
+      "intervals": 3529
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -1819,7 +1819,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 882
+      "intervals": 883
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
@@ -4035,6 +4035,30 @@
           "inputTokens": 8,
           "outputTokens": 851,
           "totalTokens": 859
+        }
+      },
+      "activeSessions": 0,
+      "intervals": 0
+    },
+    {
+      "hour": "2026-03-24T07:00:00-07:00",
+      "inputTokens": 4,
+      "outputTokens": 127,
+      "totalTokens": 131,
+      "estimatedCostUSD": 0.001917,
+      "models": {
+        "claude-sonnet-4-6": {
+          "inputTokens": 4,
+          "outputTokens": 127,
+          "totalTokens": 131,
+          "estimatedCostUSD": 0.001917
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 4,
+          "outputTokens": 127,
+          "totalTokens": 131
         }
       },
       "activeSessions": 0,
