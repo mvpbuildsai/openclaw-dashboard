@@ -1,6 +1,26 @@
 {
   "sessions": [
     {
+      "id": "e8648879-0c94-4afb-b708-2749df25366b",
+      "agent": "main",
+      "channel": "main",
+      "model": "gemini-3.1-flash-lite-preview",
+      "modelProvider": "google",
+      "contextTokens": 1048576,
+      "inputTokens": 42465,
+      "outputTokens": 436,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 42901,
+      "estimatedCostUSD": 0.044645,
+      "inputCostUSD": 0.042465,
+      "outputCostUSD": 0.00218,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
+      "updatedAt": "2026-03-31T06:00:15-07:00",
+      "date": "2026-03-31"
+    },
+    {
       "id": "8157855e-27d0-4619-94a0-c1a7de88799e",
       "agent": "main",
       "channel": "main",
@@ -1892,21 +1912,60 @@
     },
     {
       "date": "2026-03-31",
-      "inputTokens": 0,
-      "outputTokens": 0,
+      "inputTokens": 42465,
+      "outputTokens": 436,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 0,
-      "inputCostUSD": 0.0,
-      "outputCostUSD": 0.0,
+      "totalTokens": 42901,
+      "inputCostUSD": 0.042465,
+      "outputCostUSD": 0.00218,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "sessions": 0,
-      "models": {},
-      "agents": {},
-      "channels": {},
-      "_contributions": {},
-      "costUSD": 0.0
+      "sessions": 1,
+      "models": {
+        "gemini-3.1-flash-lite-preview": {
+          "sessions": 1,
+          "inputTokens": 42465,
+          "outputTokens": 436,
+          "totalTokens": 42901,
+          "estimatedCostUSD": 0.044645
+        }
+      },
+      "agents": {
+        "main": {
+          "sessions": 1,
+          "inputTokens": 42465,
+          "outputTokens": 436,
+          "totalTokens": 42901,
+          "estimatedCostUSD": 0.044645
+        }
+      },
+      "channels": {
+        "main": {
+          "sessions": 1,
+          "inputTokens": 42465,
+          "outputTokens": 436,
+          "totalTokens": 42901,
+          "estimatedCostUSD": 0.044645
+        }
+      },
+      "_contributions": {
+        "e8648879-0c94-4afb-b708-2749df25366b": {
+          "inputTokens": 42465,
+          "outputTokens": 436,
+          "totalTokens": 42901,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "model": "gemini-3.1-flash-lite-preview",
+          "agent": "main",
+          "channel": "main",
+          "_ic": 0.042465,
+          "_oc": 0.00218,
+          "_rc": 0.0,
+          "_wc": 0.0
+        }
+      },
+      "costUSD": 0.044645
     }
   ],
   "models": {
@@ -1932,11 +1991,11 @@
       "estimatedCostUSD": 0.2226795
     },
     "gemini-3.1-flash-lite-preview": {
-      "sessions": 35,
-      "inputTokens": 14321903,
-      "outputTokens": 76483,
-      "totalTokens": 14390473,
-      "estimatedCostUSD": 14.734088
+      "sessions": 36,
+      "inputTokens": 14364368,
+      "outputTokens": 76919,
+      "totalTokens": 14433374,
+      "estimatedCostUSD": 14.778733
     },
     "gemini-3-flash-preview": {
       "sessions": 2,
@@ -1948,11 +2007,11 @@
   },
   "agents": {
     "main": {
-      "sessions": 55,
-      "inputTokens": 27265298,
-      "outputTokens": 130570,
-      "totalTokens": 25194814,
-      "estimatedCostUSD": 16.16899626
+      "sessions": 56,
+      "inputTokens": 27307763,
+      "outputTokens": 131006,
+      "totalTokens": 25237715,
+      "estimatedCostUSD": 16.21364126
     },
     "complex": {
       "sessions": 3,
@@ -1962,16 +2021,16 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-03-31T06:00:03-0700",
+  "lastUpdated": "2026-03-31T06:15:03-0700",
   "totals": {
-    "inputTokens": 26028415,
-    "outputTokens": 136041,
+    "inputTokens": 26070880,
+    "outputTokens": 136477,
     "cacheReadTokens": 5689514,
     "cacheWriteTokens": 56134,
-    "totalTokens": 26285033,
-    "costUSD": 16.60371862,
-    "inputCostUSD": 15.75753412,
-    "outputCostUSD": 0.4731702,
+    "totalTokens": 26327934,
+    "costUSD": 16.64836362,
+    "inputCostUSD": 15.79999912,
+    "outputCostUSD": 0.4753502,
     "cacheReadCostUSD": 0.1625118,
     "cacheWriteCostUSD": 0.2105025,
     "days": 22
@@ -2263,7 +2322,7 @@
         }
       },
       "activeSessions": 4,
-      "intervals": 1550
+      "intervals": 1551
     },
     {
       "hour": "2026-03-10T08:00:00-07:00",
@@ -2287,7 +2346,7 @@
         }
       },
       "activeSessions": 2,
-      "intervals": 1552
+      "intervals": 1553
     },
     {
       "hour": "2026-03-10T09:00:00-07:00",
@@ -2298,7 +2357,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 6201
+      "intervals": 6205
     },
     {
       "hour": "2026-03-10T10:00:00-07:00",
@@ -2309,7 +2368,7 @@
       "models": {},
       "agents": {},
       "activeSessions": 1,
-      "intervals": 1551
+      "intervals": 1552
     },
     {
       "hour": "2026-03-10T21:00:00-07:00",
@@ -6095,6 +6154,30 @@
       },
       "activeSessions": 0,
       "intervals": 0
+    },
+    {
+      "hour": "2026-03-31T06:00:00-07:00",
+      "inputTokens": 42465,
+      "outputTokens": 436,
+      "totalTokens": 42901,
+      "estimatedCostUSD": 0.044645,
+      "models": {
+        "gemini-3.1-flash-lite-preview": {
+          "inputTokens": 42465,
+          "outputTokens": 436,
+          "totalTokens": 42901,
+          "estimatedCostUSD": 0.044645
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 42465,
+          "outputTokens": 436,
+          "totalTokens": 42901
+        }
+      },
+      "activeSessions": 0,
+      "intervals": 0
     }
   ],
   "channels": {
@@ -6106,11 +6189,11 @@
       "estimatedCostUSD": 14.0865504
     },
     "main": {
-      "sessions": 18,
-      "inputTokens": 1098193,
-      "outputTokens": 15890,
-      "totalTokens": 1111395,
-      "estimatedCostUSD": 1.10558095
+      "sessions": 19,
+      "inputTokens": 1140658,
+      "outputTokens": 16326,
+      "totalTokens": 1154296,
+      "estimatedCostUSD": 1.15022595
     }
   },
   "timezone": "America/Los_Angeles"
