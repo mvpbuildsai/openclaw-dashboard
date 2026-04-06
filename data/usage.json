@@ -7,17 +7,17 @@
       "model": "gemini-3.1-flash-lite-preview",
       "modelProvider": "google",
       "contextTokens": 1048576,
-      "inputTokens": 27067,
-      "outputTokens": 500,
+      "inputTokens": 28515,
+      "outputTokens": 432,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 27567,
-      "estimatedCostUSD": 0.029567,
-      "inputCostUSD": 0.027067,
-      "outputCostUSD": 0.0025,
+      "totalTokens": 28947,
+      "estimatedCostUSD": 0.030675,
+      "inputCostUSD": 0.028515,
+      "outputCostUSD": 0.00216,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-04-06T14:46:11-07:00",
+      "updatedAt": "2026-04-06T15:16:45-07:00",
       "date": "2026-04-06"
     },
     {
@@ -2319,12 +2319,12 @@
     },
     {
       "date": "2026-04-06",
-      "inputTokens": 82125,
+      "inputTokens": 83573,
       "outputTokens": 897,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 83022,
-      "inputCostUSD": 0.082125,
+      "totalTokens": 84402,
+      "inputCostUSD": 0.083573,
       "outputCostUSD": 0.004485,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
@@ -2332,19 +2332,19 @@
       "models": {
         "gemini-3.1-flash-lite-preview": {
           "sessions": 2,
-          "inputTokens": 82125,
+          "inputTokens": 83573,
           "outputTokens": 897,
-          "totalTokens": 83022,
-          "estimatedCostUSD": 0.08661
+          "totalTokens": 84402,
+          "estimatedCostUSD": 0.088058
         }
       },
       "agents": {
         "main": {
           "sessions": 2,
-          "inputTokens": 82125,
+          "inputTokens": 83573,
           "outputTokens": 897,
-          "totalTokens": 83022,
-          "estimatedCostUSD": 0.08661
+          "totalTokens": 84402,
+          "estimatedCostUSD": 0.088058
         }
       },
       "channels": {
@@ -2357,10 +2357,10 @@
         },
         "telegram": {
           "sessions": 1,
-          "inputTokens": 27067,
+          "inputTokens": 28515,
           "outputTokens": 500,
-          "totalTokens": 27567,
-          "estimatedCostUSD": 0.029567
+          "totalTokens": 28947,
+          "estimatedCostUSD": 0.031015
         }
       },
       "_contributions": {
@@ -2379,21 +2379,21 @@
           "_wc": 0.0
         },
         "2928dda6-b5de-415b-aaa8-8931ce18dcb4": {
-          "inputTokens": 27067,
+          "inputTokens": 28515,
           "outputTokens": 500,
-          "totalTokens": 27567,
+          "totalTokens": 28947,
           "cacheReadTokens": 0,
           "cacheWriteTokens": 0,
           "model": "gemini-3.1-flash-lite-preview",
           "agent": "main",
           "channel": "telegram",
-          "_ic": 0.027067,
+          "_ic": 0.028515,
           "_oc": 0.0025,
           "_rc": 0.0,
           "_wc": 0.0
         }
       },
-      "costUSD": 0.08661
+      "costUSD": 0.088058
     }
   ],
   "models": {
@@ -2420,10 +2420,10 @@
     },
     "gemini-3.1-flash-lite-preview": {
       "sessions": 46,
-      "inputTokens": 14807041,
+      "inputTokens": 14808489,
       "outputTokens": 80821,
-      "totalTokens": 14879128,
-      "estimatedCostUSD": 15.240916
+      "totalTokens": 14880508,
+      "estimatedCostUSD": 15.242364
     },
     "gemini-3-flash-preview": {
       "sessions": 5,
@@ -2436,10 +2436,10 @@
   "agents": {
     "main": {
       "sessions": 69,
-      "inputTokens": 28475509,
+      "inputTokens": 28476957,
       "outputTokens": 141865,
-      "totalTokens": 26415499,
-      "estimatedCostUSD": 17.43568226
+      "totalTokens": 26416879,
+      "estimatedCostUSD": 17.43713026
     },
     "complex": {
       "sessions": 3,
@@ -2449,15 +2449,15 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-04-06T15:15:04-0700",
+  "lastUpdated": "2026-04-06T15:30:02-0700",
   "totals": {
-    "inputTokens": 27238626,
+    "inputTokens": 27240074,
     "outputTokens": 147336,
     "cacheReadTokens": 5689514,
     "cacheWriteTokens": 56134,
-    "totalTokens": 27505718,
-    "costUSD": 17.87040462,
-    "inputCostUSD": 16.96774512,
+    "totalTokens": 27507098,
+    "costUSD": 17.87185262,
+    "inputCostUSD": 16.96919312,
     "outputCostUSD": 0.5296452,
     "cacheReadCostUSD": 0.1625118,
     "cacheWriteCostUSD": 0.2105025,
@@ -2704,30 +2704,6 @@
     }
   ],
   "hourly": [
-    {
-      "hour": "2026-03-19T13:00:00-07:00",
-      "inputTokens": 45218,
-      "outputTokens": 1270,
-      "totalTokens": 45453,
-      "estimatedCostUSD": 0.046393,
-      "models": {
-        "gemini-3.1-flash-lite-preview": {
-          "inputTokens": 45218,
-          "outputTokens": 1270,
-          "totalTokens": 45453,
-          "estimatedCostUSD": 0.046393
-        }
-      },
-      "agents": {
-        "main": {
-          "inputTokens": 45218,
-          "outputTokens": 1270,
-          "totalTokens": 45453
-        }
-      },
-      "activeSessions": 0,
-      "intervals": 0
-    },
     {
       "hour": "2026-03-19T14:00:00-07:00",
       "inputTokens": 41606,
@@ -6789,15 +6765,39 @@
       },
       "activeSessions": 0,
       "intervals": 0
+    },
+    {
+      "hour": "2026-04-06T15:00:00-07:00",
+      "inputTokens": 28515,
+      "outputTokens": 432,
+      "totalTokens": 28947,
+      "estimatedCostUSD": 0.030675,
+      "models": {
+        "gemini-3.1-flash-lite-preview": {
+          "inputTokens": 28515,
+          "outputTokens": 432,
+          "totalTokens": 28947,
+          "estimatedCostUSD": 0.030675
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 28515,
+          "outputTokens": 432,
+          "totalTokens": 28947
+        }
+      },
+      "activeSessions": 0,
+      "intervals": 0
     }
   ],
   "channels": {
     "telegram": {
       "sessions": 44,
-      "inputTokens": 16005145,
+      "inputTokens": 16006593,
       "outputTokens": 85529,
-      "totalTokens": 16083511,
-      "estimatedCostUSD": 15.0354644
+      "totalTokens": 16084891,
+      "estimatedCostUSD": 15.0369124
     },
     "main": {
       "sessions": 24,
