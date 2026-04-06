@@ -7,17 +7,17 @@
       "model": "gemini-3.1-flash-lite-preview",
       "modelProvider": "google",
       "contextTokens": 1048576,
-      "inputTokens": 55058,
-      "outputTokens": 397,
+      "inputTokens": 17502,
+      "outputTokens": 258,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 55455,
-      "estimatedCostUSD": 0.057043,
-      "inputCostUSD": 0.055058,
-      "outputCostUSD": 0.001985,
+      "totalTokens": 17760,
+      "estimatedCostUSD": 0.018792,
+      "inputCostUSD": 0.017502,
+      "outputCostUSD": 0.00129,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-04-06T14:16:21-07:00",
+      "updatedAt": "2026-04-06T14:42:09-07:00",
       "date": "2026-04-06"
     },
     {
@@ -2428,7 +2428,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-04-06T14:30:04-0700",
+  "lastUpdated": "2026-04-06T14:45:04-0700",
   "totals": {
     "inputTokens": 27211559,
     "outputTokens": 146836,
