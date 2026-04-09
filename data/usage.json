@@ -1,6 +1,26 @@
 {
   "sessions": [
     {
+      "id": "2928dda6-b5de-415b-aaa8-8931ce18dcb4",
+      "agent": "main",
+      "channel": "telegram",
+      "model": "claude-sonnet-4-6",
+      "modelProvider": "anthropic",
+      "contextTokens": 1000000,
+      "inputTokens": 3,
+      "outputTokens": 206,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 209,
+      "estimatedCostUSD": 0.003099,
+      "inputCostUSD": 9e-06,
+      "outputCostUSD": 0.00309,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
+      "updatedAt": "2026-04-08T22:44:38-07:00",
+      "date": "2026-04-08"
+    },
+    {
       "id": "6fbc7b9f-b836-4825-b59f-2df4cec77d05",
       "agent": "main",
       "channel": "main",
@@ -39,26 +59,6 @@
       "cacheWriteCostUSD": 0.0,
       "updatedAt": "2026-04-08T05:19:24-07:00",
       "date": "2026-04-08"
-    },
-    {
-      "id": "2928dda6-b5de-415b-aaa8-8931ce18dcb4",
-      "agent": "main",
-      "channel": "telegram",
-      "model": "claude-sonnet-4-6",
-      "modelProvider": "anthropic",
-      "contextTokens": 1000000,
-      "inputTokens": 3,
-      "outputTokens": 7,
-      "cacheReadTokens": 0,
-      "cacheWriteTokens": 0,
-      "totalTokens": 10,
-      "estimatedCostUSD": 0.000114,
-      "inputCostUSD": 9e-06,
-      "outputCostUSD": 0.000105,
-      "cacheReadCostUSD": 0.0,
-      "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-04-07T22:17:18-07:00",
-      "date": "2026-04-07"
     },
     {
       "id": "38712886-bd8a-4739-95dd-60df6cef1970",
@@ -2422,16 +2422,16 @@
     },
     {
       "date": "2026-04-08",
-      "inputTokens": 53690,
-      "outputTokens": 791,
+      "inputTokens": 53693,
+      "outputTokens": 997,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 54481,
-      "inputCostUSD": 0.05369,
-      "outputCostUSD": 0.003955,
+      "totalTokens": 54690,
+      "inputCostUSD": 0.053699,
+      "outputCostUSD": 0.007045,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "sessions": 2,
+      "sessions": 3,
       "models": {
         "gemini-3.1-flash-lite-preview": {
           "sessions": 2,
@@ -2439,24 +2439,31 @@
           "outputTokens": 791,
           "totalTokens": 54481,
           "estimatedCostUSD": 0.057645
+        },
+        "claude-sonnet-4-6": {
+          "sessions": 1,
+          "inputTokens": 3,
+          "outputTokens": 206,
+          "totalTokens": 209,
+          "estimatedCostUSD": 0.003099
         }
       },
       "agents": {
         "main": {
-          "sessions": 2,
-          "inputTokens": 53690,
-          "outputTokens": 791,
-          "totalTokens": 54481,
-          "estimatedCostUSD": 0.057645
+          "sessions": 3,
+          "inputTokens": 53693,
+          "outputTokens": 997,
+          "totalTokens": 54690,
+          "estimatedCostUSD": 0.060744
         }
       },
       "channels": {
         "telegram": {
-          "sessions": 1,
-          "inputTokens": 30521,
-          "outputTokens": 499,
-          "totalTokens": 31020,
-          "estimatedCostUSD": 0.033016
+          "sessions": 2,
+          "inputTokens": 30524,
+          "outputTokens": 705,
+          "totalTokens": 31229,
+          "estimatedCostUSD": 0.036115
         },
         "main": {
           "sessions": 1,
@@ -2494,9 +2501,23 @@
           "_oc": 0.00146,
           "_rc": 0.0,
           "_wc": 0.0
+        },
+        "2928dda6-b5de-415b-aaa8-8931ce18dcb4": {
+          "inputTokens": 3,
+          "outputTokens": 206,
+          "totalTokens": 209,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "agent": "main",
+          "channel": "telegram",
+          "_ic": 9e-06,
+          "_oc": 0.00309,
+          "_rc": 0.0,
+          "_wc": 0.0
         }
       },
-      "costUSD": 0.057645
+      "costUSD": 0.060744
     }
   ],
   "models": {
@@ -2508,11 +2529,11 @@
       "estimatedCostUSD": 1.04291656
     },
     "claude-sonnet-4-6": {
-      "sessions": 3,
-      "inputTokens": 101,
-      "outputTokens": 15349,
-      "totalTokens": 979570,
-      "estimatedCostUSD": 0.18572676
+      "sessions": 4,
+      "inputTokens": 104,
+      "outputTokens": 15555,
+      "totalTokens": 979779,
+      "estimatedCostUSD": 0.18882576
     },
     "gemini-2.5-flash": {
       "sessions": 14,
@@ -2538,11 +2559,11 @@
   },
   "agents": {
     "main": {
-      "sessions": 73,
-      "inputTokens": 28548576,
-      "outputTokens": 143678,
-      "totalTokens": 26490311,
-      "estimatedCostUSD": 17.52375426
+      "sessions": 74,
+      "inputTokens": 28548579,
+      "outputTokens": 143884,
+      "totalTokens": 26490520,
+      "estimatedCostUSD": 17.52685326
     },
     "complex": {
       "sessions": 3,
@@ -2552,16 +2573,16 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-04-08T22:30:01-0700",
+  "lastUpdated": "2026-04-08T22:45:01-0700",
   "totals": {
-    "inputTokens": 27311693,
-    "outputTokens": 149149,
+    "inputTokens": 27311696,
+    "outputTokens": 149355,
     "cacheReadTokens": 5689514,
     "cacheWriteTokens": 56134,
-    "totalTokens": 27580530,
-    "costUSD": 17.95847662,
-    "inputCostUSD": 17.04082212,
-    "outputCostUSD": 0.5446402,
+    "totalTokens": 27580739,
+    "costUSD": 17.96157562,
+    "inputCostUSD": 17.04083112,
+    "outputCostUSD": 0.5477302,
     "cacheReadCostUSD": 0.1625118,
     "cacheWriteCostUSD": 0.2105025,
     "days": 29
@@ -2807,30 +2828,6 @@
     }
   ],
   "hourly": [
-    {
-      "hour": "2026-03-20T09:00:00-07:00",
-      "inputTokens": 64696,
-      "outputTokens": 764,
-      "totalTokens": 65460,
-      "estimatedCostUSD": 0.068516,
-      "models": {
-        "gemini-3.1-flash-lite-preview": {
-          "inputTokens": 64696,
-          "outputTokens": 764,
-          "totalTokens": 65460,
-          "estimatedCostUSD": 0.068516
-        }
-      },
-      "agents": {
-        "main": {
-          "inputTokens": 64696,
-          "outputTokens": 764,
-          "totalTokens": 65460
-        }
-      },
-      "activeSessions": 0,
-      "intervals": 0
-    },
     {
       "hour": "2026-03-20T10:00:00-07:00",
       "inputTokens": 26175,
@@ -6892,15 +6889,39 @@
       },
       "activeSessions": 0,
       "intervals": 0
+    },
+    {
+      "hour": "2026-04-08T22:00:00-07:00",
+      "inputTokens": 3,
+      "outputTokens": 206,
+      "totalTokens": 209,
+      "estimatedCostUSD": 0.003099,
+      "models": {
+        "claude-sonnet-4-6": {
+          "inputTokens": 3,
+          "outputTokens": 206,
+          "totalTokens": 209,
+          "estimatedCostUSD": 0.003099
+        }
+      },
+      "agents": {
+        "main": {
+          "inputTokens": 3,
+          "outputTokens": 206,
+          "totalTokens": 209
+        }
+      },
+      "activeSessions": 0,
+      "intervals": 0
     }
   ],
   "channels": {
     "telegram": {
-      "sessions": 46,
-      "inputTokens": 16037119,
-      "outputTokens": 86621,
-      "totalTokens": 16116509,
-      "estimatedCostUSD": 15.0788384
+      "sessions": 47,
+      "inputTokens": 16037122,
+      "outputTokens": 86827,
+      "totalTokens": 16116718,
+      "estimatedCostUSD": 15.0819374
     },
     "main": {
       "sessions": 26,
