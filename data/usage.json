@@ -2528,51 +2528,25 @@
           "estimatedCostUSD": 0.024629
         }
       },
-      "_contributions": {
-        "724d619d-f206-49e9-afb6-e83a64a3aa21": {
-          "inputTokens": 33418,
-          "outputTokens": 582,
-          "totalTokens": 33763,
-          "cacheReadTokens": 0,
-          "cacheWriteTokens": 0,
-          "model": "gemini-3-flash-preview",
-          "agent": "main",
-          "channel": "telegram",
-          "_ic": 0.033418,
-          "_oc": 0.00291,
-          "_rc": 0.0,
-          "_wc": 0.0
-        },
-        "2928dda6-b5de-415b-aaa8-8931ce18dcb4": {
-          "inputTokens": 59299,
-          "outputTokens": 603,
-          "totalTokens": 59902,
-          "cacheReadTokens": 0,
-          "cacheWriteTokens": 0,
-          "model": "gemini-3-flash-preview",
-          "agent": "main",
-          "channel": "telegram",
-          "_ic": 0.059299,
-          "_oc": 0.003015,
-          "_rc": 0.0,
-          "_wc": 0.0
-        },
-        "6fbc7b9f-b836-4825-b59f-2df4cec77d05": {
-          "inputTokens": 23169,
-          "outputTokens": 292,
-          "totalTokens": 23461,
-          "cacheReadTokens": 0,
-          "cacheWriteTokens": 0,
-          "model": "gemini-3.1-flash-lite-preview",
-          "agent": "main",
-          "channel": "main",
-          "_ic": 0.023169,
-          "_oc": 0.00146,
-          "_rc": 0.0,
-          "_wc": 0.0
-        }
-      },
       "costUSD": 0.123271
+    },
+    {
+      "date": "2026-04-10",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 0,
+      "inputCostUSD": 0.0,
+      "outputCostUSD": 0.0,
+      "cacheReadCostUSD": 0.0,
+      "cacheWriteCostUSD": 0.0,
+      "sessions": 0,
+      "models": {},
+      "agents": {},
+      "channels": {},
+      "_contributions": {},
+      "costUSD": 0.0
     }
   ],
   "models": {
@@ -2628,7 +2602,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-04-09T23:45:01-0700",
+  "lastUpdated": "2026-04-10T00:00:01-0700",
   "totals": {
     "inputTokens": 27427583,
     "outputTokens": 150848,
@@ -2640,7 +2614,7 @@
     "outputCostUSD": 0.5553552,
     "cacheReadCostUSD": 0.1625118,
     "cacheWriteCostUSD": 0.2105025,
-    "days": 30
+    "days": 31
   },
   "intervals": [
     {
