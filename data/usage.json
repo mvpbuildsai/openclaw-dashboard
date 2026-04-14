@@ -7,17 +7,17 @@
       "model": "claude-sonnet-4-6",
       "modelProvider": "anthropic",
       "contextTokens": 1000000,
-      "inputTokens": 6,
-      "outputTokens": 356,
+      "inputTokens": 4,
+      "outputTokens": 260,
       "cacheReadTokens": 0,
       "cacheWriteTokens": 0,
-      "totalTokens": 362,
-      "estimatedCostUSD": 0.005358,
-      "inputCostUSD": 1.8e-05,
-      "outputCostUSD": 0.00534,
+      "totalTokens": 264,
+      "estimatedCostUSD": 0.003912,
+      "inputCostUSD": 1.2e-05,
+      "outputCostUSD": 0.0039,
       "cacheReadCostUSD": 0.0,
       "cacheWriteCostUSD": 0.0,
-      "updatedAt": "2026-04-14T11:00:05-07:00",
+      "updatedAt": "2026-04-14T11:00:53-07:00",
       "date": "2026-04-14"
     },
     {
@@ -2751,7 +2751,7 @@
       "estimatedCostUSD": 0.18388656
     }
   },
-  "lastUpdated": "2026-04-14T11:00:01-0700",
+  "lastUpdated": "2026-04-14T11:15:01-0700",
   "totals": {
     "inputTokens": 27603214,
     "outputTokens": 152968,
